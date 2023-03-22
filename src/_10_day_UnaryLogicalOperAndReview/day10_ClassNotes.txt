@@ -1,0 +1,36 @@
+DAY 10
+
+Aritmetic Operators (*/%+-)                                               --- done
+ShortHand Operators (assignment operators)(kisayollar) (+=,-=,*=,/=,%=)   --- done
+Relational Operators (>,>=,<,<=,==,!=)                                    --- done
+Unary Operators (+,-,++,--)
+Logical/Conditional Operators  (&, &&, |, ||, ^)
+
+Unary Operators
+     ++: increase the value by one
+     --; decreases the value by one
+
+     Post vs Pre
+     pre: changes the values immediately
+     ++a;  --a;
+     post: changes the value in the second step;
+     a++;  a--;
+
+
+
+&& AND VE
+  BOTH
+  in logical operator, both expression should be true to return true;
+
+|| OR Veya
+  EITHER
+  only one expression needs to be true to return true.
+  if || return false, both expressions are false.
+
+^ : X OR Ya da
+   returns true if both sides are not same (X OR - Farkliysan kazanirsin)
+
+   false ^ false = false
+   false ^ true = true
+   true ^ false = true
+   true ^ true = false

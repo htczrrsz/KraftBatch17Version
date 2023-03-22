@@ -1,0 +1,8 @@
+DAY 09
+
+Operators
+
+Aritmetic Operators (+ - * / %)  -- done
+Unary Operators (+, -, ++, --)
+Shorthand Operators (=, +=, -=, *=, /=, %=)
+Relational Operators(>, <, >=, <=, ==, !=)

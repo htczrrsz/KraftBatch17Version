@@ -1,0 +1,54 @@
+Day 8
+
+Neler Ogrendik
+1. main method
+2. print() & println()
+3. escape characters (sequences)   \n vs
+4. primitive & String variables
+5. Concatenation  (Stringse string devam etmesi gibi.)
+6. casting
+7. arithmetic operators
+8. scanner class
+
+Aritmetic Operators
+   in math
+     10/4 = 2.5
+     100/3 = 33.333..
+   in Java
+     10/4 = 2;
+     100/3 = 33;
+     10.0 / 4 = 2.5 ;
+     20/6 = 3
+     20/6.0
+
+
+remainder % modulus
+     10%3 = 1 (kalani verir)
+   in math
+     45/8 = 5.625
+   in Java
+     46/8 = 5     46= 8*5+6
+         45%8 = 6
+
+
+
+
+      CASTING
+// implicit, automatic    smaller type to larger
+// explicit, manual     larger type to smaller
+
+
+      SCANNER
+// 1.adim Scanner objesi olusturalim
+          Scanner scan= new Scanner(System.in);
+
+      nextInt()
+      nextDouble()
+      nextLine()
+
+      Eger  nextLine() methodunu baska bir scanner classindan sonra kullaniyosak mesela
+       nextInt gibi , addition olarak bos nextLine() kullanmamiz gerek.
+
+
+
+
