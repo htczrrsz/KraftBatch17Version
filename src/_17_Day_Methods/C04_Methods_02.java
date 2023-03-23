@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class C04_Methods_02 {
     public static void main(String[] args) {
 
-        kiloOkkaCevir();
-       // aritmeticOrtalama();
+   //     kiloOkkaCevir();
+        aritmeticOrtalama();
 
        // max();
 
@@ -15,11 +15,14 @@ public class C04_Methods_02 {
 
  }
 
+    /**
+     *  a method prints the avarage to the console
+     */
 
-//    public static void aritmeticOrtalama(){
-//        double x=3, y=5,z=10;
-//        double result= (x+y+z)/3;
-//        System.out.println("ortalama : " + result);
+    public static void aritmeticOrtalama(){
+        double x=3, y=5,z=10;
+        double result= (x+y+z)/3;
+        System.out.println("ortalama : " + result);
 
 
 
@@ -49,12 +52,12 @@ public class C04_Methods_02 {
 
 // method kiloyu okka cins  okka=1.282 kg
 
-        public static void kiloOkkaCevir(){
-            Scanner scan=new Scanner(System.in);
-            System.out.println("Kilogram: ");
-            double kilogram= scan.nextDouble();
-            double okka = 1.282*kilogram;
-            System.out.println(kilogram+ " kilogram " + okka + " okkadir");
+//        public static void kiloOkkaCevir(){
+//            Scanner scan=new Scanner(System.in);
+//            System.out.println("Kilogram: ");
+//            double kilogram= scan.nextDouble();
+//            double okka = 1.282*kilogram;
+//            System.out.println(kilogram+ " kilogram " + okka + " okkadir");
 
         }
 
