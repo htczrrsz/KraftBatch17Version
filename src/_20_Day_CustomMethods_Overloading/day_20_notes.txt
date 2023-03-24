@@ -1,0 +1,12 @@
+METHOD OVERLOADS
+
+     -multiple different methods have the same method name
+     -same method name, different parameters (Parameter datatype, parameter number)
+     - Return type access modifiers (public static) , specifiers can be same or different
+
+     Advantages
+     1. easy to memorize
+     2. easy to read
+     3. reusable
+     4. flexible
+
