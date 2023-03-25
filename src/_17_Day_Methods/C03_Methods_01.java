@@ -12,7 +12,8 @@ public class C03_Methods_01 {
 
         hello();
         menu();
-
+        System.out.println("------");
+message_1();
 
     }
 public static void message_1(){

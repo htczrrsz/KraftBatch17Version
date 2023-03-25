@@ -9,6 +9,10 @@ public class C09_Tasks_Exercise {
 
         System.out.println("matematikselIslem(40,3) = " + matematikselIslem(40, 3));
         System.out.println("dortIslem(3,4,'+') = " + dortIslem(3, 4, '+'));
+        System.out.println("dortIslem(4,5,'*') = " + dortIslem(4, 5, '*'));
+        System.out.println("---------");
+        int sonuc= dortIslem(5,6,'*')+dortIslem(7,4,'/');
+        System.out.println("sonuc = " + sonuc);
 
     }
 
@@ -33,6 +37,16 @@ public class C09_Tasks_Exercise {
         switch (k) {
             case '+':
                 islem = (x+y);
+                break;
+            case '-':
+                islem= x-y;
+                break;
+            case '*':
+                islem= x*y;
+                break;
+            case '/':
+                islem= x/y;
+                break;
 
 
         }
