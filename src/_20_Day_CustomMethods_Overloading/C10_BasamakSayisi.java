@@ -4,6 +4,7 @@ public class C10_BasamakSayisi {
     public static void main(String[] args) {
 
         System.out.println("basamakSayisiBulma(2348) = " + basamakSayisiBulma(2348));
+        System.out.println("basamakSayisiBulma(3461780) = " + basamakSayisiBulma(3461780));
 
 
     }

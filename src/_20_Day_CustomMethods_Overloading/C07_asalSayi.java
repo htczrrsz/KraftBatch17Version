@@ -7,6 +7,7 @@ public class C07_asalSayi {
         System.out.println("asalSayi(8) = " + asalSayi(8));
         System.out.println("asalSayi(9) = " + asalSayi(9));
         System.out.println("asalSayi(7) = " + asalSayi(7));
+        System.out.println("asalSayi(15) = " + asalSayi(15));
 
     }
     public static boolean asalSayi (int sayi){
