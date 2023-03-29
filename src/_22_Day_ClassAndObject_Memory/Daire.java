@@ -2,7 +2,7 @@ package _22_Day_ClassAndObject_Memory;
 
 public class Daire {
 
-    double PI=Math.PI;
+   static double PI=Math.PI;
     double r ;
 
 
@@ -11,7 +11,7 @@ public class Daire {
     }
 
 
-    public double cevreHesapla(){
+    public static double cevreHesapla(double r){
         return 2*r*PI;
     }
 

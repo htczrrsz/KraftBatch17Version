@@ -12,7 +12,7 @@ public class Daire2 {
         System.out.println("daire2.alanHesapla() = " + daire2.alanHesapla());
 
 
-        System.out.println("daire2.cevreHesapla() = " + daire2.cevreHesapla());
+        System.out.println("daire2.cevreHesapla() = " + daire2.cevreHesapla(4));
 
 
     }
