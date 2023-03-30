@@ -78,7 +78,7 @@ public class C02_StringClassMethods {
         System.out.println( s);
         System.out.println(s.trim());
 
-        String trimedS= s.trim();
+        String trimedS= s.trim();  // s=s.trim();  de yazabilirdik degistirmek yani atamak icin.
         System.out.println(trimedS);
 
 
@@ -87,6 +87,7 @@ public class C02_StringClassMethods {
         System.out.println("s.replace(\"Hello\",\"Big Big\") = " + s.replace("Hello", "Big Big"));
         System.out.println("trimedS.replace(\"Hello\", \"Developer\") = " + trimedS.replace("Hello", "Developer"));
         System.out.println("trimedS.replace(\"Hel\", \"\") = " + trimedS.replace("Hel", ""));
+
 
 
         // indexOf()
