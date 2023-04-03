@@ -8,6 +8,7 @@ public class C03_String_IsEmpty {
 
         String s1= "Merhaba";
         System.out.println(s1.isEmpty());
+        System.out.println(s1.isBlank());
 
         System.out.println("----------");
         String s2="";
@@ -18,14 +19,6 @@ public class C03_String_IsEmpty {
         System.out.println(s3.isEmpty());  // false . dolu
 
         System.out.println(s3.isBlank()); // true   bosluk var mi diyor
-
-
-
-
-
-
-
-
 
 
 
