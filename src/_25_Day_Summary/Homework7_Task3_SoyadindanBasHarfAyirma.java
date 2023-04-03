@@ -20,6 +20,7 @@ public class Homework7_Task3_SoyadindanBasHarfAyirma {
         public static void main (String[]args){
             System.out.println(soyadindanBasHarfAyirma("Hadi", "Hayirlisi"));
             System.out.println(soyadindanBasHarfAyirma("Hatice", " Zararsiz"));
+            System.out.println(soyadindanBasHarfAyirma("Hatice", "Hahaha"));
 
 
         }

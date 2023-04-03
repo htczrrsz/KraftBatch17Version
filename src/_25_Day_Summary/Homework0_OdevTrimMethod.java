@@ -6,58 +6,31 @@ public class Homework0_OdevTrimMethod {
 
     public static void main(String[] args) {
 
-//        String b = "  Hat ice  ";
-//        System.out.println(b.lastIndexOf(" "));
-//        System.out.println(b.indexOf(" "));
 
+        System.out.println(trimMethod("  Hat ice  "));
 
-//        }
-//        System.out.println(trimMethod("  Hat ice  "));
-//
   }
 
 
        public static String trimMethod(String a) {
-                int uzunluk = a.length();
-        //   System.out.println(a.charAt(''));
-           if ((a.startsWith("")) || (a.endsWith(""))) {
-                   for (int i = 0; i < a.length(); i++) {
+           int start = 0;
+           int end = 0;
 
-                       //System.out.println(a.substring(i, a.length()));
-
-                   }
-                   System.out.println(a);
+           for (int i = 0; i < a.length(); i++) {
+               if (a.charAt(i) != ' ') {
+                   start = i;
+                   break;
                }
+           }
+           for (int i = a.length() - 1; i >= 0; i--) {
+               if (a.charAt(i) != ' ') {
+                   end = i;
+                   break;
+               } }
+               return a.substring(start, end + 1);
 
-           return a;
+
+           }
+
+
        }
-
-
-        //  }
-
-
-//
-//        public static String trimMethod(String a) {
-//((b.startsWith(" "))|| b.endsWith(" "))
-//        if ((a.substring(0, 1) == " ") || a.substring(a.length() - 1, a.length()) == " ") {
-//                a = a.replace(" ", "");
-//            }
-//            return a;
-//        }
-
-
-        //  if (a.contains(" ")){
-
-        //  }
-        //  if ((a.startsWith(" ")) == true && (a.endsWith(" ") == true)) {
-//                System.out.println(a);
-
-        //   (a.startsWith(" "))!=true && (a.endsWith(" ")!=true)
-
-
-//    public static String trimMethod(){
-//
-
-    }
-
-
