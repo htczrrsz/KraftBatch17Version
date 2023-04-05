@@ -1,4 +1,4 @@
-package _27_Day_StringLabCont;
+package _28_Day_Quiz;
 
 public class Quiz3 {
     public static void main(String[] args) {
