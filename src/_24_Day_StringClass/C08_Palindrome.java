@@ -6,7 +6,8 @@ public class C08_Palindrome {
         String word= "civic";
         String reverse = "";
         for (int i=word.length()-1; 0<=i ; i--){
-            reverse = reverse.concat(word.substring(i,i+1));
+            reverse+=(word.substring(i,i+1));
+           // reverse = reverse.concat(word.substring(i,i+1));
         }
         System.out.println(reverse);
 
