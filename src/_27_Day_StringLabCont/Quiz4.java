@@ -6,6 +6,11 @@ public class Quiz4 {
         System.out.println("concatYap(5,6,7) = " + concatYap(5, 6, 7));
 
     }
+
+    // Concat işlemi yapan 2 adet ve
+    // 3 adet değer alacak iki farklı overloading metot yazınız.
+
+
     public static int concatYap(int a, int b){
         return a+b;
     }

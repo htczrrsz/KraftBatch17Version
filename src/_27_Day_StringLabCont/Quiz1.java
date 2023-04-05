@@ -5,10 +5,13 @@ public class Quiz1 {
 
         System.out.println(toplam(7));
         System.out.println(toplam(3));
+        System.out.println("toplam(0) = " + toplam(0));
 
 
     }
 
+// Kullanıcının girdiği sayısal bir ifadeyi alan
+// ve 1den başlayarak girilen sayı dahil toplamını veren metodu yazınız.
 
     public static int toplam(int sayi){
         int result=0;

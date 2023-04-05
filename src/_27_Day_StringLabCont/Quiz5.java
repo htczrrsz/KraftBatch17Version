@@ -8,6 +8,9 @@ public class Quiz5 {
 
     }
 
+    // Girilen kelimenin polindrom olup olmadığını kontrol eden bir metot yazınız.
+    //(Tersi kendisine eşit)
+
     public static boolean polindromMu(String str) {
         String reverse = "";
         for (int i = str.trim().length() - 1; 0 <= i; i--) {

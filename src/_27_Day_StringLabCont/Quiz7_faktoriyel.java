@@ -1,12 +1,13 @@
 package _27_Day_StringLabCont;
 
-public class Quiz7 {
+public class Quiz7_faktoriyel {
     public static void main(String[] args) {
 
 
         System.out.println("faktoriyelDondur(4) = " + faktoriyelDondur(4));
 
     }
+// Girilen sayının faktoriyelini döndüren bir metot yazınız.
 
     public static int faktoriyelDondur(int sayi){
         int sayi1=1;
