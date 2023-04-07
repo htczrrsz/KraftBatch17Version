@@ -25,4 +25,20 @@ public class Task_14_YinelenenKarakterleriReturnEt {
         }
            return result;
     }
+
+
+
+//    public static String yinelenenKarakterler (String str){
+//        String result = "";
+//        for (int i = 0; i < str.length(); i++) {
+//            char ch=str.charAt(i);
+//            if (str.indexOf(ch)!=str.lastIndexOf(ch)) {
+//                if (result.indexOf(ch) == -1) {
+//                    result += "" + ch;
+//                }
+//            }
+//
+//        }
+//        return result;
+//    }
 }
