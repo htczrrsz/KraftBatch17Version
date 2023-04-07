@@ -32,7 +32,7 @@ public class C02_SwitchSeasons {
                season= "Fall";
                break;
            default :
-               season="Hata";
+               season="Invalid month number";
        }
 return season;
 }
