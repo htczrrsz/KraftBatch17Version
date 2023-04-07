@@ -10,8 +10,9 @@ public class Task_16_IlkUcHarfSona {
     //Merhaba habaMer Ali Ali
 
     public static String ilkUcHarfSonaEkle(String str){
-        String str1= str.replace((str.substring(0,3)),"");
-        return str1+(str.substring(0,3));
+        String str1=str.trim();
+        String str2= str1.replace((str1.substring(0,3)),"");
+        return str2+(str1.substring(0,3));
     }
 
 
