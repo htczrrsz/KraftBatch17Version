@@ -6,7 +6,7 @@ public class Task_2_Bosluklara_YuzdeIsareti_EKle {
 
         System.out.println(yuzdeIsaretiEkleBosluklara("   mer  haba  "));
     }
-
+    // soru 2
     // Kullanıcıdan bir dize sözcük alın ve her boşluğa % ibaresi ekleyin.
     // Merhaba dünya Merhaba%dünya
 

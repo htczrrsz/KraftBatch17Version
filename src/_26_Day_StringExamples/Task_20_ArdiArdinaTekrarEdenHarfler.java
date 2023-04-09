@@ -9,6 +9,7 @@ public class Task_20_ArdiArdinaTekrarEdenHarfler {
 
     }
 
+    // Soru 20
     // Kullanıcıdan bir kelime alın ve ardı ardına tekrar eden harfleri döndüren metodu yazın.
     // aabccccseeeeeefff acef
     // abaccb c

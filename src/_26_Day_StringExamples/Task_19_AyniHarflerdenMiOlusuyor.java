@@ -7,9 +7,11 @@ public class Task_19_AyniHarflerdenMiOlusuyor {
         System.out.println(ayniHarflerdenMiOlusuyor("Iftar", "Tarif"));
         System.out.println(ayniHarflerdenMiOlusuyor("Selcuk", "Elyase"));
         System.out.println(ayniHarflerdenMiOlusuyor("Ennfes", "Nefess"));
-
+//  sonuncusu false cikmasi gerekirken true cikiyor, duzeltemedim.
     }
 
+
+    // Soru 19
     //Kullanıcıdan iki kelime alın ve bu kelimeler aynı harflerden oluşuyorsa
     // (her harf eşit sayıda içerecek,büyük küçük harf göz ardı edilecek) true
     // oluşmuyorsa false yazdırın. (anagram kelime ise)

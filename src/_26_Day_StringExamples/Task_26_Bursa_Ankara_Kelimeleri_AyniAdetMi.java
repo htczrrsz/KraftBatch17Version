@@ -8,7 +8,7 @@ public class Task_26_Bursa_Ankara_Kelimeleri_AyniAdetMi {
         System.out.println(ayniSayidaMi("Istanbul çok uzak", "Ankara", "Bursa"));
         System.out.println(ayniSayidaMi("Bursa ve Istanbul deneyelim", "Bursa", "Ankara"));
     }
-
+  // Soru 26
     //  Bursa ile Ankara kelimeli cümlenin içerinde aynı sayıda dönüyorsa true
     //  farklı sayılarda dönüyorsa false yazdıran metodu yazınız.
     //  Ankara ile Bursa arası 500 km. True

@@ -6,7 +6,7 @@ public class Task_28_IcindekiHarfSayilariBasinaYazilacak {
         System.out.println(harfSayilariniBaslarinaYaz("Seni seviyorum"));
 
     }
-
+// Soru 28
     //  Kullanıcıdan bir kelime alın ve
     //  bu kelimenin içerindeki harf sayılarını başına yazarak ekrana döndürün.
     //  (büyük küçük harfler göz ardı edilecek)

@@ -9,6 +9,7 @@ public class Task_27_SonuIstenenKelimeIleBitiyorsa {
 
 
     }
+    // Soru 27
     // Kullanıcıdan bir kelime alın ve sonu acak ile bitiyorsa true,
     // bitmiyorsa false döndüren metodu yazdırın.
     // Kullanacak true

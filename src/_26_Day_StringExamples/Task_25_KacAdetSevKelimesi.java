@@ -8,6 +8,7 @@ public class Task_25_KacAdetSevKelimesi {
         System.out.println(kelimeKacAdet("Sev seni seveni, sevmek guzeldir.", "sev"));
 
     }
+    // Soru 25
     // Kullanıcıdan bir input alın ve bu inputun içerisinde kaç adet sev bulunduğunu ekrana yazdırın.
     // Seni seviyorum 1
     // Sevmek veya sevmemek 2

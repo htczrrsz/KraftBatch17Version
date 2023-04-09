@@ -9,6 +9,7 @@ public class Task_23_TerstenAyniMi {
         System.out.println(terstenAyniMi(" Talat"));
 
     }
+    // Soru 23
 // Kullanıcıdan bir kelime alın ve bu kelimenin tersten okunuşu
 // kelime ile aynı ise true değil ise false döndüren metot yazınız.
 // Kabak true

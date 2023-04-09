@@ -5,7 +5,7 @@ public class Task_16_IlkUcHarfSona {
         System.out.println(ilkUcHarfSonaEkle("Merhaba"));
 
     }
-
+ // Soru 16
     // Kullanıcıdan min 3 harf olacak şekilde bir kelime alın ve bu kelimenin ilk 3 harfini kelimeden keserek sonuna ekleyin.
     //Merhaba habaMer Ali Ali
 

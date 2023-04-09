@@ -8,6 +8,8 @@ public class Task_17_SonUcHarfBasa {
         System.out.println(sonUcHarfBasa("Hatice"));
 
     }
+
+    // Soru 17
 //  Kullanıcıdan min 3 harf olacak şekilde bir kelime alın ve
 //  bu kelimenin son 3 harfini kelimeden keserek kelimenin başına ekleyin.
 //  Merhaba abaMerh Ali Ali

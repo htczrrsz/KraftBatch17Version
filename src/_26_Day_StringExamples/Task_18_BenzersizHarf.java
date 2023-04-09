@@ -8,6 +8,8 @@ public class Task_18_BenzersizHarf {
         System.out.println(benzersizHarf("Karkas rotasi"));
 
     }
+
+    // Soru 18
     // Kullanıcıdan bir kelime alın ve bu kelimenin ilk benzersiz harfini bulun.
     // (Büyük küçük harf gözardı edilecek.) Hiçbir harf benzersiz değil ise benzersiz harf yoktur ikazı versin.
     // Merhaba M
