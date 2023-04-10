@@ -10,7 +10,7 @@ public class C14_Ebob {
 
     public static int ebob(int num1, int num2){
         int ebob=1;
-        for (int i=1; i<=num1&& i<=num2; i++){
+        for (int i=1; i<=num1 && i<=num2; i++){
             if (num1%i==0 && num2%i==0){
                 ebob=i;
             }
