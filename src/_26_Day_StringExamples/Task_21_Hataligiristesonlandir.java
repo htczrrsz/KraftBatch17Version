@@ -1,11 +1,14 @@
 package _26_Day_StringExamples;
 
+import com.sun.source.tree.BreakTree;
+
 import java.util.Scanner;
 
 public class Task_21_Hataligiristesonlandir {
     public static void main(String[] args) {
 
-        System.out.println(ikiFarkliKelime());
+      System.out.println(ikiFarkliKelime());
+
 
 
     }
@@ -23,29 +26,64 @@ public class Task_21_Hataligiristesonlandir {
 
     public static String ikiFarkliKelime() {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Iki kelime giriniz : ");
-        String kelime1 = scan.nextLine();
-        String kelime2 = scan.nextLine();
+        String kelime1 = "";
+        String kelime2 = "";
+           System.out.println("Lutfen 1 ile 4 karakterden olusan iki kelime giriniz : ");
 
-        if( kelime1.length() > 4 && kelime2.length() > 4 ){
-            int i = 0;
-            while (i < 3) {
-                System.out.println("Kelimeleri tekrar giriniz : ");
-                String kelime1Tekrar = scan.nextLine();
-                String kelime2Tekrar = scan.nextLine();
+        int i = 0;
+        while (true) {
+            System.out.println("1.kelime : ");
+            kelime1 = scan.nextLine();
+            if (kelime1.length() > 0 && kelime1.length() < 5) {
+                break;
+            }
+            System.out.println("Hatali giris, lutfen tekrar deneyin");
+            i++;
+            if (i == 3) return null;
+        }
+        i = 0;
+        while (true) {
+            System.out.println("2.kelime : ");
+            kelime2 = scan.nextLine();
+            if (kelime2.length() > 0 && kelime2.length() < 5) {
+                break;
+            }
+            System.out.println("Hatali giris, lutfen tekrar deneyin");
+            i++;
+            if (i == 3) return null;
 
-                if (kelime1Tekrar.length() < 4 && kelime2Tekrar.length() < 4) {
-                    return kelime1Tekrar.concat(" " + kelime2Tekrar);
-                } else {
-                    i++;
-                }
-            }
-            if (i == 3) {
-                return "Uc kez yanlis giris yaptiniz.";
-            }
         }
-        return kelime1.concat(" " + kelime2);
-        }
+        return kelime1.concat(" ").concat(kelime2);
+    }
+
+
+//    Scanner scan=new Scanner(System.in);
+//    String kelime1="";
+//    String kelime2="";
+//        System.out.println("Lütfen 1 ila 4 karakterden oluşan 2 kelime giriniz");
+//    int i=0;
+//        while(true){
+//        System.out.print("1.kelime: ");
+//        kelime1= scan.nextLine();
+//        if (kelime1.length()>0 && kelime1.length()<5){
+//            break;
+//        }
+//        System.out.println("Hatalı giriş lütfen tekrar deneyiniz");
+//        i++;
+//        if(i==3) return null;
+//    }
+//    i=0;
+//        while(true){
+//        System.out.print("2.kelime: ");
+//        kelime2= scan.nextLine();
+//        if (kelime2.length()>0 && kelime2.length()<5){
+//            break;
+//        }
+//        System.out.println("Hatalı giriş lütfen tekrar deneyiniz");
+//        i++;
+//        if(i==3) return null;
+//    }
+//        return  kelime1.concat(" ").concat(kelime2);
 
 
     }

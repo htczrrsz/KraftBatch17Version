@@ -23,11 +23,12 @@ public class Task_21_Cozum {
 
 
     public static String ikiFarkliKelime() {
+        Scanner scan = new Scanner(System.in);
         String kelime1="";
         String kelime2="";
         int kelime1Count=0;
         int kelime2Count=0;
-        Scanner scan = new Scanner(System.in);
+
 
         System.out.println("1 ila 4 harften oluşan iki kelime giriniz ");
         while(true){
@@ -44,6 +45,7 @@ public class Task_21_Cozum {
             }
             break;
         }
+
 
         while(true){
             if (kelime2Count>2) {
