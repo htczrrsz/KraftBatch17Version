@@ -26,7 +26,7 @@ public class C04_Array_List_3 {
 
 
     }
-// 5,10,15,20,25,25,100,100,500 rakamlarini listOfNums isili bir ArrayListe atın ve
+// 5,10,15,20,25,25,100,100,500 rakamlarini listOfNums isimli bir ArrayListe atın ve
 //printListNumbers(listOfNums); methodu ile yazdıralım.
 
     public static void printListOfNumbers (ArrayList arrList){

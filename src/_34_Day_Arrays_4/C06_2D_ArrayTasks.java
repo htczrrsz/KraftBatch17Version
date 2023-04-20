@@ -2,7 +2,7 @@ package _34_Day_Arrays_4;
 
 import java.util.Arrays;
 
-public class C06_2DArrayTasks {
+public class C06_2D_ArrayTasks {
     public static void main(String[] args) {
 
 String str= "merhaba java insanlari bugun nasilsiniz";

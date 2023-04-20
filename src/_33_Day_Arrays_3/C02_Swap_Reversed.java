@@ -2,7 +2,7 @@ package _33_Day_Arrays_3;
 
 import java.util.Arrays;
 
-public class C02_Tasks {
+public class C02_Swap_Reversed {
     public static void main(String[] args) {
 
         int[] intArr={1,20,3,400,50,6};

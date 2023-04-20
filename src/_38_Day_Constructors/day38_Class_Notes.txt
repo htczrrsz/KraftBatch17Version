@@ -1,0 +1,27 @@
+
+
+
+  Constructors
+
+      Review
+
+         Wrapper Class
+             1. Parse methods.  converts string to primitive
+             2.Value of   converts String to wrapper class
+
+
+
+
+         ArrayList
+            Methods;
+                add(data)
+                size
+                get            indeksini yazdigimiz degeri getirir.
+                set            istedigimiz indekse yeni deger koydurabilirz.
+                remove         index
+                remove         objects
+                removeAll      collection
+                indexOf        first element's index number, int
+                lastIndex
+                contains
+                clear

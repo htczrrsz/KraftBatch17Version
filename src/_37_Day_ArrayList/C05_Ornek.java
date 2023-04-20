@@ -31,11 +31,6 @@ public class C05_Ornek {
 
     }
 
-// yeni bi arrayList olustur icerisine 5 adet sayi ekle
-    // dondur(int x) x kadar sayilari kendi icerisinde dondursun.
-    // 1 2 3 4 5        dondur(int 1)  51234
-    //                  dondur(int 2)  34512  yeni bir arrayList dondur.
-
 
 
 

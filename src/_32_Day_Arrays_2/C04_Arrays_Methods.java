@@ -94,6 +94,8 @@ public class C04_Arrays_Methods {
         return arr1[0].equalsIgnoreCase(arr2[0]);
     }
 
+
+
 // 2 array kabul eden bir metod yazin ve arraylerin ilk elemanlari ile
     // yeni bir array dondursun
 
@@ -199,6 +201,6 @@ public class C04_Arrays_Methods {
     }
 
 
-    
+
 
 }
