@@ -3,7 +3,7 @@ package _36_Day_Wrapper_Class;
 import java.util.Arrays;
 import java.util.Random;
 
-public class Tasks_Arrays_26_Soru {
+public class Tasks_Arrays_26Soru_Odev {
     public static void main(String[] args) {
 
 
