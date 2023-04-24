@@ -16,7 +16,7 @@ public class C03_BulkOperations {
 
 
 
-        list1.addAll(list);
+       // list1.addAll(list);
 
 
 
@@ -33,6 +33,8 @@ public class C03_BulkOperations {
         list.add(50);
         list.add(10);
 
+        list1.addAll(list);
+        System.out.println(list1);
 
         ArrayList<Integer> list2=new ArrayList<>();
         list2.addAll(Arrays.asList(1,2,3,4,5,6,7,8,9,10,11,12,3,3,4,2,2,1,1,1,1,1));

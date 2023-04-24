@@ -2,7 +2,7 @@ package _37_Day_ArrayList;
 
 import java.util.ArrayList;
 
-public class C05_Ornek {
+public class C05_StringArrListi_IntArrayListe_Cevir {
     public static void main(String[] args) {
 
         ArrayList<String> stringNums=new ArrayList<>();

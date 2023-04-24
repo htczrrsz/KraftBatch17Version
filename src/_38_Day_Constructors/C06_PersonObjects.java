@@ -9,7 +9,7 @@ public class C06_PersonObjects {
 
     person1.gender='f';
     person1.name="Hatice";
-    person1.age=25;
+    person1.age=29;
 
 
     Person person2= new Person("Ali",'m',30);

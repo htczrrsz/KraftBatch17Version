@@ -7,23 +7,25 @@ public class Person {
         public char gender;
         public int age;
 
-   public Person(){
+   public Person(){    // bos constructor olusturduk ama java normalde otomatik default atar. yazarsak bizimkini kullanir.
 
         }
 
 
    public Person(String ad, char cinsiyet, int yas){
 
-            this.name=ad;
+            this.name=ad;              // yukardaki degiskenlere erismek icin this. kullaniriz.
             this.gender=cinsiyet;
             this.age=yas;
 
 
         }
 
+
+
           public String toString(){
-          return "Person{name=" +name+ ", gender=" + gender+ ", age=" +age + "}";
-}
+            return "Person{name=" +name+ ", gender=" + gender+ ", age=" +age + "}";
+           }
 
 
 

@@ -18,6 +18,8 @@ public class C04_Array_List_3 {
         listOfNums.add(500);
 
 
+        System.out.println(sum(listOfNums));
+
         printListOfNumbers(listOfNums);
         System.out.println();
         System.out.println(duplicate(listOfNums));
