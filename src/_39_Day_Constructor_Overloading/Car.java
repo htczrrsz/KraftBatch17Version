@@ -3,9 +3,9 @@ package _39_Day_Constructor_Overloading;
 public class Car {
 
 
-    String marka;
-    String model;
-    String renk;
+    String marka;             // fields,
+    String model;             // instance variables
+    String renk;              // default deger atar bu sekilde yazdigimizda
     int hiz;
     boolean otomatikMi;
 

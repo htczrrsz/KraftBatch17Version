@@ -9,7 +9,9 @@ public class C04_CarpetObjects {
         Carpet carpet2= new Carpet(3.5,5,500,true);
         System.out.println(carpet2);
         System.out.println("carpet2.calcPrice() = " + carpet2.calcPrice());
-        //                   can't call the method with classname since static
+
+
+        //Carpet.CalcPrice() <--  metodu bu sekilde cagiramayiz
 
 
 
