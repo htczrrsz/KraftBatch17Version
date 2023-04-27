@@ -1,12 +1,12 @@
 package _39_Day_Constructor_Overloading;
 
 
-public class Odev_Square {
+public class Square {
 
     public int sideLengt;
 
 
-    public Odev_Square(int sideLengt) {
+    public Square(int sideLengt) {
         this.sideLengt = sideLengt;
     }
 
@@ -27,7 +27,7 @@ public class Odev_Square {
 class SquareObjects {
     public static void main(String[] args) {
 
-        Odev_Square square1 = new Odev_Square(5);
+        Square square1 = new Square(5);
 
         System.out.println("square1.sideLengt = " + square1.sideLengt);
 
