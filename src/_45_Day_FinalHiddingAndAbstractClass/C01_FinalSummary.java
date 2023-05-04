@@ -1,4 +1,4 @@
-package _45_DAy_FinalAndHidding;
+package _45_Day_FinalHiddingAndAbstractClass;
 
 public class C01_FinalSummary {
     public static void main(String[] args) {

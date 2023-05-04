@@ -1,4 +1,4 @@
-package _45_DAy_FinalAndHidding;
+package _45_Day_FinalHiddingAndAbstractClass;
 
  public abstract class  Animal {
 
@@ -15,7 +15,7 @@ package _45_DAy_FinalAndHidding;
 
      int x=5;
 
-   //  Animal(){}
+   // Animal(){}
 
 
 
