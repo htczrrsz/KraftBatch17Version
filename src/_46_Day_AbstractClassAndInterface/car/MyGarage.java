@@ -1,11 +1,14 @@
 package _46_Day_AbstractClassAndInterface.car;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class MyGarage {
     public static void main(String[] args) {
 
 
-        // Car car1= new Car("Togg","T10X", "Kapadokya",2023,50000  )
-        // we can not create an object from an abstract class.
+      //   Car car1= new Car("Togg","T10X", "Kapadokya",2023,50000  )
+       //  we can not create an object from an abstract class.
 
 
         Honda honda =new Honda("Accord","Black",2023,80000);
@@ -24,7 +27,6 @@ public class MyGarage {
         audi.setColor("Pink");
 
         System.out.println(audi);
-
 
 
 

@@ -4,6 +4,7 @@ import _46_Day_AbstractClassAndInterface.animal.Animal;
 import _46_Day_AbstractClassAndInterface.animal.Cat;
 import _46_Day_AbstractClassAndInterface.animal.Dog;
 import _46_Day_AbstractClassAndInterface.animal.Tiger;
+import _46_Day_AbstractClassAndInterface.car.Car;
 
 import java.util.Arrays;
 
@@ -60,6 +61,30 @@ public class C01_Polymorphism {
         Object[] objectArray={str,a,b,animal};
 
         System.out.println(Arrays.toString(objectArray));
+
+
+
+        
+
+
+
+        Shape shape1=new Square(10);
+
+        System.out.println(shape1.perimeter());
+
+        Shape shape2= new Circle(10);
+
+        System.out.println(shape2.perimeter());
+
+        Square square= new Square(10);
+        System.out.println(square.perimeter());
+
+
+        Shape shape3 = new Cube(5);
+
+        shape3=shape1;
+
+        shape1= new Triangle(4,5,6);
 
 
     }
