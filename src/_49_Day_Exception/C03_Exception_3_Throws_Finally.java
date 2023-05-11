@@ -21,6 +21,7 @@ public class C03_Exception_3_Throws_Finally {
         System.out.println(metot(null));
 
 
+
     }
 
     public static String metot(String str) {
