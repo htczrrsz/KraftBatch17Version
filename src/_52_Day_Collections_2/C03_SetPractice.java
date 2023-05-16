@@ -17,6 +17,8 @@ public class C03_SetPractice {
 
         System.out.println("----------------------------------------");
 
+
+        
 //      !!!!  HashSet  !!!!
 
         Set<Integer> hashSet= new HashSet<>();
@@ -29,6 +31,8 @@ public class C03_SetPractice {
 
         System.out.println();
 
+
+
 //      !!!!  LinkedHashSet  !!!!
 
         Set<Integer>linkedHashSet= new LinkedHashSet<>();
@@ -39,6 +43,7 @@ public class C03_SetPractice {
         System.out.println("linkedHashSet = " + linkedHashSet); //    giris sirasini muhafaza ediyor. (insert order preserved)
 
         System.out.println();
+
 
 
 //      !!!!  TreeSet  !!!!

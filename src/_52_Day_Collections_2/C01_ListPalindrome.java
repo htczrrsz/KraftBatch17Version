@@ -2,7 +2,7 @@ package _52_Day_Collections_2;
 
 import java.util.*;
 
-public class C01_ListPalindrom {
+public class C01_ListPalindrome {
     public static void main(String[] args) {
 
 
@@ -17,6 +17,7 @@ public class C01_ListPalindrom {
 
         List<String> list= new ArrayList<>();
         list.addAll(Arrays.asList("kazik","adanada","kazak","radar","ses","harun","ses","radar"));
+
 
 
         System.out.println(findPalindromeInList(list));
