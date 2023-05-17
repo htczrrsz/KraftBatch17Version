@@ -1,0 +1,81 @@
+1. Primitives          : byte, short, int, long, float, double, char, boolean
+
+
+2. Type Casting        : implicit, explicit
+      a. implicit      : automatic -> casting smaller primitive type to larger    (widening)
+      b. explicit      : manuel    -> casting a larger primitive to smaller       (narrowing)
+
+
+3. Wrapper Class       : The objects that represents the primitives  (primitivelerden obje uretmek icin kullaniyoruz)
+                         Enables us to use primitive data types in Collections and Maps
+                         Also have useful methods
+
+
+4. String              : immutable
+                         "KraftTech"
+                           012345678
+
+
+              Methods:  length, charAt, trim, toLowerCase, split, replace, substring, equals, equalsIgnoreCase,
+                        endsWith, startsWith, toCharArray, indexOf, isEmpty ...
+
+
+5. StringBuilder    StringBuffer
+
+            mutable char sequences
+            have reverse() feature
+            slower than string
+
+
+         StringBuilder  : not synchronised,
+                         much faster than StringBuffer
+
+         StringBuffer   : Synchronized
+
+
+6. Loops                :  repeated actions
+
+                 for    :  if the number of repetition is known
+                           for( initialization ; condition ; increment/decrement ){
+                                  statements
+                           }
+
+                 while  :  to repeat unknown number of times
+                           while(condition){
+                               statement
+                          }
+
+                 branching statements :
+                    break     :   exit the loop (switch)
+                    continue  :   jumps to the next iteration of the loop
+                    return    :   exits the current method
+
+
+
+7. Arrays               :  Data Structure supporting multiple variables
+                           use when multiple data is needed
+                           fast
+                           has index
+                           supports primitive and nonprimitives
+                           can be multidimensional
+                           size is fixed, cannot be used with unknown number of data
+
+
+8. for each Loop        : iteration is fixed ( from first elements to last elements)
+                          you don't have access to the index numbers , cannot reassign values
+                          data structure is needed to use
+
+
+9. Custom Methods       : Function
+                          reusability
+                          series of code fragments for a specific task
+
+                          public static void / anyDataType  methodName (){
+                           code perform the task
+                          }
+
+
+10. Method Overloading  :  multiple methods having same name in a class
+                           different parameters
+                           reusability
+                           (Static Polymorphism)

@@ -57,6 +57,8 @@ public class C04_MapExample {
         ogrenciler.put(ogrenci3.getNo(),ogrenci3);
 
 
+
+
 //        Map<Integer, Person> personeller= new HashMap<>();
 //        Person person1= new Person();
 //        personeller.put(12,person1);
@@ -64,6 +66,10 @@ public class C04_MapExample {
 
         List < Map> list3= new ArrayList<>();
         list3.add(ogrenciler);
+
+
+//        !!!
+
 
         Map<Integer, String> yeniMap= new HashMap<>();
 
