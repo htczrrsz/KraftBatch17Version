@@ -1,7 +1,5 @@
 package _37_Day_ArrayList;
 
-import _21_Day_Class_And_Project.Person;
-
 import java.util.ArrayList;
 
 public class C02_Array_List {
@@ -11,8 +9,11 @@ public class C02_Array_List {
         ArrayList<String> arrList =new ArrayList<>();
         arrList.add("Harun");  // boolean
         arrList.add("Ziya");
+        System.out.println("arrList = " + arrList);
+        arrList.add(0,"Hatice");
+        System.out.println("arrList = " + arrList);
 
-     //   System.out.println(arrList.isEmpty());
+        //   System.out.println(arrList.isEmpty());
 
       //  arrList.clear();
 

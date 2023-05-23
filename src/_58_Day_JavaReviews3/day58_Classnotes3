@@ -1,0 +1,103 @@
+
+20. OOP Abstraction        : Hiding the implementation details
+                             focus on the essentials not on the detail
+                             what to do instead of how to do
+                             provides variables and methods
+
+
+                             abstract method : methods without the body
+                                             meant to be overridden
+
+                             2 ways to use Abstraction
+
+
+21. Abstract Class ve Interface
+
+            Abstract class : meant to be parent class
+                             include common variable, common methods
+                             can not be instantiated
+
+            Interface      : multiple inheritance
+                             meant to be implemented
+                             blueprint of a class
+                             used for providing additional methods to the class
+                             variables static & final
+                             methods : abstract methods , static methods
+
+
+
+22. OOP Polymorphism       : objects can be in many forms
+                             parent class/ interface can reference to its child objects
+                             reference types decides variables and methods can be reached
+
+                             List list = arraylist+ linkedlist
+                             Map map = hashMap() + treemap
+
+
+
+23.Reference Type Casting :  inheritance, UpCasting vs DownCasting
+
+             Upcasting    :  casting smaller type to larger (implicitly done)
+                             to be able to assign child objects to parent reference type
+
+             Downcasting  :  casting larger to smaller
+                             to be able to access the members of the objects
+
+
+
+24.Exceptions             :  checked & unchecked
+
+             Error        : Errors are severe problems, usually result from an external factor
+                            and cannot be handled  -> not expected to be handled
+                            due to lack of resource
+
+             Exceptions   : unexpected event, sth went wrong, --> can be handled/ can be caught or catch
+
+                           Checked   :   occurs during compile time
+                                         needs immediate attention
+
+                           Unchecked :   occurs during runtime
+
+                           throw     :  used for creating exceptions manually
+
+
+
+25.Exception Handling     :
+                       1.  try & catch : checked/unchecked, used in a block
+
+                           try{
+                             exception code
+                           }
+                           catch (exceptionType e){
+                           sout...
+                           e.printStackTrace()  (detaylari yazar bu)
+                           }
+                           finally {
+
+                           }
+
+                       2.  throws      :  use within the method signature
+                                          only declares the method is throwing an exception, not handling it
+                                          for checked exceptions only
+
+
+26.final, finally, finalize
+
+27.
+28.
+29. Iterable & iterator : used for removing objects while looping the collection
+          hasNext()
+          next()
+          remove()
+
+          removeIf()
+
+30. Maps
+         collection of pairs. (key, value) key cannot be duplicated
+         size is dynamic
+         only support non-primitive dta types
+
+         HashMap : the fastest, random order. accepts null key and null values
+         LinkedHashMap : insertion order,
+         Hashtable : doest accept null, synchronized --> thread safe --> slow
+         TreeMap : sorted order.

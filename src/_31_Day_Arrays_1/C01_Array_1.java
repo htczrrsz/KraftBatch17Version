@@ -1,5 +1,7 @@
 package _31_Day_Arrays_1;
 
+import java.util.Arrays;
+
 public class C01_Array_1 {
     public static void main(String[] args) {
 
@@ -22,6 +24,10 @@ public class C01_Array_1 {
         z[2]=63;
         z[3]=56;
         z[4]=107;
+        System.out.println("Arrays.toString(z) = " + Arrays.toString(z));
+        z[3]= 100;
+        System.out.println("Arrays.toString(z) = " + Arrays.toString(z));
+
 //        z[5]=77;     out of bound
 
 
