@@ -100,4 +100,4 @@
          HashMap : the fastest, random order. accepts null key and null values
          LinkedHashMap : insertion order,
          Hashtable : doest accept null, synchronized --> thread safe --> slow
-         TreeMap : sorted order.
+         TreeMap : sorted order. key can not be null

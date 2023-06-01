@@ -41,7 +41,8 @@ public class C05_Iterator {
 
         list3.removeIf(a -> a>4);
         System.out.println("list3 = " + list3);
-        
+
+
 
     }
 }
